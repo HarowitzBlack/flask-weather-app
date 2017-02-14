@@ -1,0 +1,109 @@
+body{
+  margin:0px auto;
+  font-family: cursive;
+  font-weight: 100;
+  color:#333;
+  display: block;
+  background-image: url('/static/sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+  font-family: sans-serif;
+  color: #a54;
+}
+
+#wrapper{
+    margin: 0px auto;
+    width: 800px;
+    height: 500px;
+    background: transparent;
+    text-align: center;
+}
+
+#searchentry{
+  transition: 0.3s;
+  width: 600px;
+  height: 40px;
+  border: 2px solid #0f4fd8;
+  font-size: 18px;
+  color: #333;
+  margin-top: 100px;
+  padding: 5px;
+}
+
+#search-button{
+  transition: 0.2s;
+  width: 150px;
+  height: 50px;
+  border: 0px solid;
+  padding: 5px;
+  color :#fff;
+  background: #ed0013;
+}
+
+#search-button:hover{
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 3px 5px 5px #000;
+  background: #f71b3f;
+
+}
+
+#cards-cont{
+  margin: 15px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0.7;
+}
+
+#weather-card{
+  margin: 2px;
+  width: 400px;
+  height: 200px;
+  background: #fff;
+}
+
+#temp-card{
+  margin: 2px;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+}
+
+#otherdata-card{
+  margin: 2px;
+  width: 400px;
+  height: 200px;
+  background: #fff;
+}
+
+#clouds-card{
+  margin: 2px;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+}
+
+#weather-card:hover{
+  transition: 0.2s;
+  border-bottom: 5px solid #2649e2;
+}
+
+#temp-card:hover{
+  transition: 0.2s;
+  border-bottom: 5px solid #26e278;
+}
+
+#clouds-card:hover{
+  transition: 0.2s;
+  border-bottom: 5px solid #e2d326;
+}
+
+#otherdata-card:hover{
+  transition: 0.2s;
+  border-bottom: 5px solid #e2268e;
+}
