@@ -1,1 +1,1 @@
-# flask-apps
+# Web interface to view weather
